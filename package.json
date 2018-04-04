@@ -1,0 +1,22 @@
+{
+  "name": "loginsystem",
+  "version": "1.0.0",
+  "description": "login system for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.12.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}

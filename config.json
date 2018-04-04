@@ -1,0 +1,5 @@
+{
+  "secret": "my node application rocks secret",
+  "audience": "rahul node app audience",
+  "issuer": "https://rahul.com"
+}
