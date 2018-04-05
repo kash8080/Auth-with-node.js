@@ -31,7 +31,7 @@ passport.use(new LocalStrategy({
   function(email, password, done) {
     console.log('email='+email+" ,pass="+password);
     User.authenticate(email, password, function (error, user) {
-      if (error) { return done(err); }
+      if (error) { return done(error); }
       if (!user) {
         return done(null, false, {message: 'Wrong email or password.' });
       } else {
